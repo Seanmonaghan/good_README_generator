@@ -100,7 +100,7 @@ ${answers.test}
 
 If you have any questions about the application, be sure to contact me at my: 
 
-[email](mailto: ${answers.email})
+[email](mailto:${answers.email})
 
 Or you can find me at my: 
 

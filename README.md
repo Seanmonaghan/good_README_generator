@@ -1,8 +1,8 @@
-# Test 5
+# test 6
 
 ## Description
     
-fifth test
+sixth test
     
 ## Table of Contents
     
@@ -16,11 +16,11 @@ fifth test
     
 ## Installation Instructions
 
-nope
+install
     
 ## Usage Information
 
-nope
+use
     
 ## License
 
@@ -28,17 +28,17 @@ ISC
     
 ## Contribution Guidelines
 
-nope
+contribute
     
 ## Tests
 
-nope
+test
     
 ## Questions
 
 If you have any questions about the application, be sure to contact me at my: 
 
-[email](mailto: smonagha@conncoll.edu)
+[email](mailto:smonagha@conncoll.edu)
 
 Or you can find me at my: 
 
