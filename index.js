@@ -64,7 +64,7 @@ function generateREADME(answers) {
 
 ## Description
     
-    ${answers.description}
+${answers.description}
     
 ## Table of Contents
     
@@ -78,28 +78,36 @@ function generateREADME(answers) {
     
 ## Installation Instructions
 
-    ${answers.installation}
+${answers.installation}
     
 ## Usage Information
 
-    ${answers.usage}
+${answers.usage}
     
 ## License
 
-    ${answers.license}
+${answers.license}
     
 ## Contribution Guidelines
 
-    ${answers.contribution}
+${answers.contribution}
     
 ## Tests
 
-    ${answers.test}
+${answers.test}
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
-Or you can find me at my [github account](https://github.com/${answers.github}) `;
+If you have any questions about the application, be sure to contact me at my: 
+
+[email](mailto: ${answers.email})
+
+Or you can find me at my: 
+
+[github account](https://github.com/${answers.github})
+
+
+`;
 }
 
 promptUser()
