@@ -60,60 +60,56 @@ function promptUser() {
 }
 
 function generateREADME(answers) {
-    return `
-    # ${answers.title}
+    return `# ${answers.title}
 
-    ## Description
+## Description
     
     ${answers.description}
     
-    ## Table of Contents
+## Table of Contents
     
-    [Description](#description)
-    [Installation Instructions](#installation-instructions)
-    [Usage Information](#usage-information)
-    [License](#license)
-    [Contribution Guidelines](#contribution-guidelines)
-    [Tests](#tests)
-    [Questions](#questions)
+[Description](#description)
+[Installation Instructions](#installation-instructions)
+[Usage Information](#usage-information)
+[License](#license)
+[Contribution Guidelines](#contribution-guidelines)
+[Tests](#tests)
+[Questions](#questions)
     
-    ## Installation Instructions
+## Installation Instructions
 
     ${answers.installation}
     
-    ## Usage Information
+## Usage Information
 
     ${answers.usage}
     
-    ## License
+## License
 
     ${answers.license}
     
-    ## Contribution Guidelines
+## Contribution Guidelines
 
     ${answers.contribution}
     
-    ## Tests
+## Tests
 
     ${answers.test}
     
-    ## Questions
+## Questions
     If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
-    Or you can find me at my [github account](https://github.com/${answers.github}) 
-
-        `;
+    Or you can find me at my [github account](https://github.com/${answers.github}) `;
 }
 
 promptUser()
-  .then(function(answers) {
-    const readme = generateREADME(answers);
+    .then(function (answers) {
+        const readme = generateREADME(answers);
 
-    return writeFileAsync("README.md", readme);
-  })
-  .then(function() {
-    console.log("Successfully wrote to index.html");
-  })
-  .catch(function(err) {
-    console.log(err);
-  });
-
+        return writeFileAsync("README.md", readme);
+    })
+    .then(function () {
+        console.log("Successfully wrote to README.md");
+    })
+    .catch(function (err) {
+        console.log(err);
+    });
