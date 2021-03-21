@@ -97,8 +97,9 @@ function generateREADME(answers) {
     ${answers.test}
     
 ## Questions
-    If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
-    Or you can find me at my [github account](https://github.com/${answers.github}) `;
+
+If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
+Or you can find me at my [github account](https://github.com/${answers.github}) `;
 }
 
 promptUser()

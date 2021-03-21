@@ -6,12 +6,12 @@
     
 ## Table of Contents
     
-[Description](#description)
-[Installation Instructions](#installation-instructions)
-[Usage Information](#usage-information)
-[License](#license)
-[Contribution Guidelines](#contribution-guidelines)
-[Tests](#tests)
+[Description](#description)<br>
+[Installation Instructions](#installation-instructions)<br>
+[Usage Information](#usage-information)<br>
+[License](#license)<br>
+[Contribution Guidelines](#contribution-guidelines)<br>
+[Tests](#tests)<br>
 [Questions](#questions)
     
 ## Installation Instructions
@@ -19,11 +19,9 @@
     test
     
 ## Usage Information
-
     test
     
 ## License
-
     MIT
     
 ## Contribution Guidelines
