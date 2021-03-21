@@ -98,8 +98,9 @@ function generateREADME(answers) {
     ${answers.test}
     
     ## Questions
-    ${answers.email}
-    ${answers.github}
+    If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
+    Or you can find me at my [github account](https://github.com/${answers.github}) 
+
         `;
 }
 
@@ -116,21 +117,3 @@ promptUser()
     console.log(err);
   });
 
-
-
-
-// function githubLink(username) {
-//     fetch('https://api.github.com/users/' + username)
-//         .then(response => response.json())
-//         .then(console.log(data))
-// }
-
-// fs.writeFile("log.txt", process.argv[2], function (err) {
-
-//     if (err) {
-//         return console.log(err);
-//     }
-
-//     console.log("Success!");
-
-// });

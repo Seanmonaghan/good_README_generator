@@ -1,9 +1,9 @@
 
-    # 
+    # Test2
 
     ## Description
     
-    dsfsd
+    This is my second test
     
     ## Table of Contents
     
@@ -17,25 +17,26 @@
     
     ## Installation Instructions
 
-    adsf
+    alt f4
     
     ## Usage Information
 
-    adsfsda
+    Plz don't break it
     
     ## License
 
-    MIT
+    ISC
     
     ## Contribution Guidelines
 
-    fdasf
+    Code first, ask questions later.
     
     ## Tests
 
-    adsf
+    Any wall will break if you slam your head into it enough times
     
     ## Questions
-    fasdfa
-    dasfasd
+    If you have any questions about the application, be sure to contact me at my [email](mailto:smonagha@conncoll.edu)
+    Or you can find me at my [github account](https://github.com/seanmonaghan) 
+
         
