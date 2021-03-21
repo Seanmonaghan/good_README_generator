@@ -1,0 +1,24 @@
+{
+  "name": "homework_readmegenerator",
+  "version": "1.0.0",
+  "description": "App to product quality readme files quickly and efficiently",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seanmonaghan/good_README_generator.git"
+  },
+  "keywords": [
+    "readme",
+    "javascript",
+    "node.js"
+  ],
+  "author": "Sean Monaghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seanmonaghan/good_README_generator/issues"
+  },
+  "homepage": "https://github.com/Seanmonaghan/good_README_generator#readme"
+}
