@@ -70,12 +70,18 @@ ${answers.description}
     
 ## Table of Contents
     
-[Description](#description)
-[Installation Instructions](#installation-instructions)
-[Usage Information](#usage-information)
-[License](#license) 
-[Contribution Guidelines](#contribution-guidelines)
-[Tests](#tests)
+[Description](#description) 
+
+[Installation Instructions](#installation-instructions) 
+
+[Usage Information](#usage-information) 
+
+[License](#license)  
+
+[Contribution Guidelines](#contribution-guidelines) 
+
+[Tests](#tests) 
+ 
 [Questions](#questions)
     
 ## Installation Instructions
@@ -101,9 +107,9 @@ ${answers.test}
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
+If you have any questions about the application, be sure to contact me at my [e-mail](mailto:${answers.email})
 
-Or you can find me at my [github account](https://github.com/${answers.github})
+Alternatively you can find me and my other works at my [Github account](https://github.com/${answers.github})
 
 `;
 }
