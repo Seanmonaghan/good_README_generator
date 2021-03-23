@@ -117,10 +117,10 @@ Alternatively you can find me and my other works at my [Github account](https://
 promptUser()
     .then(function (answers) {
         const readme = generateREADME(answers);
-        return writeFileAsync("README.md", readme);
+        return writeFileAsync("exampleREADME.md", readme);
     })
     .then(function () {
-        console.log("Successfully wrote to README.md");
+        console.log("Successfully wrote to exampleREADME.md");
     })
     .catch(function (err) {
         console.log(err);
