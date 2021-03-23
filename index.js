@@ -62,6 +62,8 @@ function promptUser() {
 function generateREADME(answers) {
     return `# ${answers.title}
 
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
+
 ## Description
     
 ${answers.description}
@@ -71,7 +73,7 @@ ${answers.description}
 [Description](#description)
 [Installation Instructions](#installation-instructions)
 [Usage Information](#usage-information)
-[License](#license)
+[License](#license) 
 [Contribution Guidelines](#contribution-guidelines)
 [Tests](#tests)
 [Questions](#questions)
@@ -86,9 +88,8 @@ ${answers.usage}
     
 ## License
 
-${answers.license}
-
 [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
+This application uses the ${answers.license} license.  Click the badge to be brought to the full license.
     
 ## Contribution Guidelines
 
