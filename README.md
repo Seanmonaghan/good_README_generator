@@ -1,8 +1,8 @@
-# test 6
+# 
 
 ## Description
     
-sixth test
+
     
 ## Table of Contents
     
@@ -16,32 +16,29 @@ sixth test
     
 ## Installation Instructions
 
-install
+
     
 ## Usage Information
 
-use
+
     
 ## License
 
-ISC
+IPA
+
+[![License: IPA](https://img.shields.io/badge/License-IPA-blue.svg)](https://opensource.org/licenses/IPA)
     
 ## Contribution Guidelines
 
-contribute
+
     
 ## Tests
 
-test
+
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my: 
+If you have any questions about the application, be sure to contact me at my [email](mailto:)
 
-[email](mailto:smonagha@conncoll.edu)
-
-Or you can find me at my: 
-
-[github account](https://github.com/seanmonaghan)
-
+Or you can find me at my [github account](https://github.com/)
 

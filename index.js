@@ -43,7 +43,7 @@ function promptUser() {
             choices: [
                 "ISC",
                 "MIT",
-                "Apache-2.0"
+                "IPA"
             ]
         },
         {
@@ -87,6 +87,8 @@ ${answers.usage}
 ## License
 
 ${answers.license}
+
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
     
 ## Contribution Guidelines
 
@@ -98,14 +100,9 @@ ${answers.test}
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my: 
+If you have any questions about the application, be sure to contact me at my [email](mailto:${answers.email})
 
-[email](mailto:${answers.email})
-
-Or you can find me at my: 
-
-[github account](https://github.com/${answers.github})
-
+Or you can find me at my [github account](https://github.com/${answers.github})
 
 `;
 }
@@ -113,7 +110,6 @@ Or you can find me at my:
 promptUser()
     .then(function (answers) {
         const readme = generateREADME(answers);
-
         return writeFileAsync("README.md", readme);
     })
     .then(function () {
