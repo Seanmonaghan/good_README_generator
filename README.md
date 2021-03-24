@@ -64,6 +64,6 @@ called exampleREADME.md which you can either push to github to see how it looks,
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my [e-mail](mailto:${answers.email})
+If you have any questions about the application, be sure to contact me at my [e-mail](mailto:smonagha@conncoll.edu)
 
-Alternatively you can find me and my other works at my [Github account](https://github.com/${answers.github})
+Alternatively you can find me and my other works at my [Github account](https://github.com/seanmonaghan)
