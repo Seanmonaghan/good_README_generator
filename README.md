@@ -40,6 +40,11 @@ will be functional and you can answer the questions that will be populated onto 
 The main use for this project is the generation of a professional README.md file with very little effort.  By running the 
 program you are asked to fill in the details for each of the major sections of a well written README.md, thereby streamlining
 the process and ensuring that you do not omit any important sections.
+
+Below is a snippet of the code to show you how the formatting is done after you have answered the questions provided by the app.
+
+![first half of example image](images/Capture.PNG)
+![second half of example image](images/Capture2.PNG)
     
 ## License
 
@@ -61,9 +66,16 @@ me via any of the sources listed under the Questions section of this README.md.
 
 The best way to test this program is to run it using Node: node index.js.  Once you answer all the questions, it will create a file
 called exampleREADME.md which you can either push to github to see how it looks, or use a website such as [Stack Edit](https://stackedit.io/)
+
+Below are some examples of how the program should run, including the Inquirer questions and then the expected link functionality after it is
+all completed and proper github usernames and emails are provided as answers.  
+
+![gif to show how questions should be answered](images/testgif.gif)
+
+![gif to show functionality](images/functionality.gif)
     
 ## Questions
 
-If you have any questions about the application, be sure to contact me at my [e-mail](mailto:${answers.email})
+If you have any questions about the application, be sure to contact me at my [e-mail](mailto:smonagha@conncoll.edu)
 
-Alternatively you can find me and my other works at my [Github account](https://github.com/${answers.github})
+Alternatively you can find me and my other works at my [Github account](https://github.com/seanmonaghan)
