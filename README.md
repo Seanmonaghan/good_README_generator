@@ -66,6 +66,13 @@ me via any of the sources listed under the Questions section of this README.md.
 
 The best way to test this program is to run it using Node: node index.js.  Once you answer all the questions, it will create a file
 called exampleREADME.md which you can either push to github to see how it looks, or use a website such as [Stack Edit](https://stackedit.io/)
+
+Below are some examples of how the program should run, including the Inquirer questions and then the expected link functionality after it is
+all completed and proper github usernames and emails are provided as answers.  
+
+![gif to show how questions should be answered](images/testgif.gif)
+
+![gif to show functionality](images/functionality.gif)
     
 ## Questions
 
