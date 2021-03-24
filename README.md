@@ -40,6 +40,11 @@ will be functional and you can answer the questions that will be populated onto 
 The main use for this project is the generation of a professional README.md file with very little effort.  By running the 
 program you are asked to fill in the details for each of the major sections of a well written README.md, thereby streamlining
 the process and ensuring that you do not omit any important sections.
+
+Below is a snippet of the code to show you how the formatting is done after you have answered the questions provided by the app.
+
+![first half of example image](images/Capture.PNG)
+![second half of example image](images/Capture2.PNG)
     
 ## License
 
